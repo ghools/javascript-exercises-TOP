@@ -1,5 +1,5 @@
 const removeFromArray = function(arrayOG, ...removed ) {;
-    return newArray = arrayOG.filter(remover => !removed.includes(remover));
+    return arrayOG.filter(remover => !removed.includes(remover));
 };
 
 // Do not edit below this line
